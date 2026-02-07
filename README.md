@@ -65,6 +65,7 @@ Why this combo?
 •	Cost vs performance: capacitive probes give a good balance inexpensive enough for multiple points in a field but good enough accuracy for irrigation decision logic. VH400 is pricier but gives more consistent, linear readings if you want higher quality.
 •	Ease of use: both capacitive sensors and DS18B20 work well with ESP32/Arduino. DS18B20’s digital output avoids analog noise and allows several temperature probes on one wire, which is perfect for monitoring multiple locations without many ADC channels.
 •	Field-friendliness: waterproof DS18B20 probes are simple to bury, and capacitive probes are designed for soil insertion. Combined they let your edge unit (ESP32) make reliable threshold decisions locally (e.g., “soil moisture < 30% → turn pump ON”).
+
 3. Data flow explanation
 Overall Data Flow
 Soil Moisture Sensor + Temperature Sensor → ESP32 (Edge) → Internet (WiFi/GSM) → Cloud → Dashboard & Alerts → Pump Control
