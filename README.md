@@ -34,31 +34,8 @@ IoT- based Monitoring Solution for Agriculture
 •	Cons: not suitable for measuring soil temperature (probe is not waterproof), slower, less accurate than DS18B20 for soil.
 
 
-Short comparison table
-Requirement	Resistive probe	Capacitive probe (DFRobot/VH400)	TDR / Professional
-Price	Very low	Low–mid	High
-Longevity in soil	Poor	Good	Excellent
-Accuracy	Low	Good for irrigation control	Best
-Ease with ESP32	Easy(analog)	Easy (analog)	Requires interface
-Recommended for student project?	No	Yes	Only if budget allows
+<img width="755" height="637" alt="image" src="https://github.com/user-attachments/assets/b4554fe9-046a-40ef-9c96-257f907c6cc1" />
 
-
-
-
-	
-
-
-	
-
-
-	
-
-
-
-Temperature sensor	Ease	Accuracy	Soil use
-DHT22	  Easy (air)	Moderate	Not for soil
-TMP36 / LM35	  Easy(analog)	Moderate	Needs waterproofing
-DS18B20	Very easy	Good (~±0.5°C)	Yes (waterproof probe)
 
 Why this combo? 
 •	Reliability: capacitive probes resist corrosion — that means the sensor won’t fail after a few weeks in wet soil like cheap resistive probes do.
